@@ -1,0 +1,301 @@
+.card-group {
+  margin: 50px;
+}
+
+.card {
+  position: relative;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 30px;
+}
+
+.card-textinfo {
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  margin: 0;
+  position: relative;
+  font-weight: bolder;
+  border: none;
+}
+
+#btnForm {
+  left: 32%;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+h5 {
+  text-align: center;
+}
+
+/* Position the Popup form */
+.login-popup {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+/* Hide the Popup form */
+.form-popup {
+  display: none;
+  position: absolute;
+  left: 45%;
+  top: 5%;
+  transform: translate(-45%, 5%);
+  border: 2px solid #666;
+  z-index: 9;
+}
+/* Styles for the form container */
+.form-container {
+  max-width: 300px;
+  padding: 20px;
+  background-color: #fff;
+}
+/* Full-width for input fields */
+.form-container input[type="text"],
+.form-container input[type="message"],
+.form-container input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #eee;
+}
+/* When the inputs get focus, do something */
+.form-container input[type="text"]:focus,
+.form-container input[type="message"]:focus,
+.form-container input[type="message"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Style submit/login button */
+.form-container .btn {
+  position: relative;
+  background-color: rgb(94, 190, 94);
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+/* Style cancel button */
+.form-container .cancel {
+  background-color: #cc0000;
+  position: relative;
+}
+/* Hover effects for buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+.login-popup2 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+/* Hide the Popup form */
+.form-popup2 {
+  display: none;
+  position: absolute;
+  left: 45%;
+  top: 5%;
+  transform: translate(-45%, 5%);
+  border: 2px solid #666;
+  z-index: 9;
+}
+/* Styles for the form container */
+.form-container2 {
+  max-width: 300px;
+  padding: 20px;
+  background-color: #fff;
+}
+/* Full-width for input fields */
+.form-container2 input[type="text"],
+.form-container2 input[type="message"],
+.form-container2 input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #eee;
+}
+/* When the inputs get focus, do something */
+.form-container2 input[type="text"]:focus,
+.form-container2 input[type="message"]:focus,
+.form-container2 input[type="message"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Style submit/login button */
+.form-container2 .btn {
+  position: relative;
+  background-color: rgb(94, 190, 94);
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+/* Style cancel button */
+.form-container2 .cancel {
+  background-color: #cc0000;
+  position: relative;
+}
+/* Hover effects for buttons */
+.form-container2 .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+.login-popup3 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+/* Hide the Popup form */
+.form-popup3 {
+  display: none;
+  position: absolute;
+  left: 45%;
+  top: 5%;
+  transform: translate(-45%, 5%);
+  border: 2px solid #666;
+  z-index: 9;
+}
+/* Styles for the form container */
+.form-container3 {
+  max-width: 300px;
+  padding: 20px;
+  background-color: #fff;
+}
+/* Full-width for input fields */
+.form-container3 input[type="text"],
+.form-container3 input[type="message"],
+.form-container3 input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #eee;
+}
+/* When the inputs get focus, do something */
+.form-container3 input[type="text"]:focus,
+.form-container3 input[type="message"]:focus,
+.form-container3 input[type="message"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Style submit/login button */
+.form-container3 .btn {
+  position: relative;
+  background-color: rgb(94, 190, 94);
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+/* Style cancel button */
+.form-container3 .cancel {
+  background-color: #cc0000;
+  position: relative;
+}
+/* Hover effects for buttons */
+.form-container3 .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+.login-popup4 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+/* Hide the Popup form */
+.form-popup4 {
+  display: none;
+  position: absolute;
+  left: 45%;
+  top: 5%;
+  transform: translate(-45%, 5%);
+  border: 2px solid #666;
+  z-index: 9;
+}
+/* Styles for the form container */
+.form-container4 {
+  max-width: 300px;
+  padding: 20px;
+  background-color: #fff;
+}
+/* Full-width for input fields */
+.form-container4 input[type="text"],
+.form-container4 input[type="message"],
+.form-container4 input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #eee;
+}
+/* When the inputs get focus, do something */
+.form-container4 input[type="text"]:focus,
+.form-container4 input[type="message"]:focus,
+.form-container4 input[type="message"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Style submit/login button */
+.form-container4 .btn {
+  position: relative;
+  background-color: rgb(94, 190, 94);
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+/* Style cancel button */
+.form-container4 .cancel {
+  background-color: #cc0000;
+  position: relative;
+}
+/* Hover effects for buttons */
+.form-container4 .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+.somethingNew {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.anotherSection2 {
+  padding: 65px;
+  box-shadow: 5px 10px 8px 10px #888888;
+  text-align: center;
+}
+
+.maps {
+  text-align: center;
+}
+
+.mapTitle {
+  font-size: 40px;
+  font-weight: bolder;
+}
